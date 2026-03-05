@@ -1,0 +1,18 @@
+{
+  "hill_climbing": {
+    "score": 10,
+    "time": 0.0339
+  },
+  "simulated_annealing": {
+    "score": 10,
+    "time": 0.0076
+  },
+  "tabu_search": {
+    "score": 10,
+    "time": 0.1543
+  },
+  "genetic_algorithm": {
+    "score": 10,
+    "time": 0.0237
+  }
+}
