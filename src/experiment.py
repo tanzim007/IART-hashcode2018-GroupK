@@ -16,6 +16,7 @@ from src.algorithms.hill_climbing import hill_climbing
 from src.algorithms.simulated_annealing import simulated_annealing
 from src.algorithms.tabu_search import tabu_search
 from src.algorithms.genetic_algorithm import genetic_algorithm
+from src.algorithms.hybrid_ga_ts import hybrid_ga_ts
 
 
 # ── default parameter sets ───────────────────────────────────────────────────
@@ -45,6 +46,15 @@ DEFAULT_PARAMS = {
         "elite_size": 2,
         "tournament_k": 3,
     },
+    "hybrid_ga_ts": {
+        "population_size": 10,
+        "generations": 50,
+        "elite_size": 2,
+        "tournament_k": 3,
+        "ts_iterations": 15,
+        "ts_tenure": 5,
+        "ts_neighbors": 5,
+    }
 }
 
 ALGORITHM_FNS = {
@@ -52,6 +62,7 @@ ALGORITHM_FNS = {
     "simulated_annealing": simulated_annealing,
     "tabu_search": tabu_search,
     "genetic_algorithm": genetic_algorithm,
+    "hybrid_ga_ts": hybrid_ga_ts,
 }
 
 

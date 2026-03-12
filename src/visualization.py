@@ -20,6 +20,7 @@ COLORS = {
     "simulated_annealing": "#3498db",
     "tabu_search":         "#2ecc71",
     "genetic_algorithm":   "#f39c12",
+    "hybrid_ga_ts":        "#9b59b6",
 }
 
 LABELS = {
@@ -27,6 +28,7 @@ LABELS = {
     "simulated_annealing": "Simulated Annealing",
     "tabu_search":         "Tabu Search",
     "genetic_algorithm":   "Genetic Algorithm",
+    "hybrid_ga_ts":        "Hybrid GA-TS"
 }
 
 
@@ -201,4 +203,5 @@ ALGORITHM_FNS_ORDER = [
     "simulated_annealing",
     "tabu_search",
     "genetic_algorithm",
+    "hybrid_ga_ts",
 ]
