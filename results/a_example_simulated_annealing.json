@@ -2,14 +2,14 @@
   "algorithm": "simulated_annealing",
   "instance": "a_example.in",
   "score": 10,
-  "time_seconds": 0.0076,
+  "time_seconds": 0.0136,
   "iterations": 1701,
   "params": {
     "max_iterations": 10000,
     "initial_temp": 500.0,
     "cooling_rate": 0.995,
     "min_temp": 0.1,
-    "seed": 42
+    "seed": 1
   },
   "history": [
     10,

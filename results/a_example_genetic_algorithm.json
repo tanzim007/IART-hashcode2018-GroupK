@@ -2,7 +2,7 @@
   "algorithm": "genetic_algorithm",
   "instance": "a_example.in",
   "score": 10,
-  "time_seconds": 0.0237,
+  "time_seconds": 0.0499,
   "iterations": 201,
   "params": {
     "population_size": 20,
@@ -10,7 +10,7 @@
     "mutation_rate": 0.3,
     "elite_size": 2,
     "tournament_k": 3,
-    "seed": 42
+    "seed": 1
   },
   "history": [
     10,
