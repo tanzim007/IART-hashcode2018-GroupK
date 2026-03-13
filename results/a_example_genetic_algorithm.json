@@ -2,7 +2,7 @@
   "algorithm": "genetic_algorithm",
   "instance": "a_example.in",
   "score": 10,
-  "time_seconds": 0.0499,
+  "time_seconds": 0.0507,
   "iterations": 201,
   "params": {
     "population_size": 20,

@@ -2,13 +2,13 @@
   "algorithm": "tabu_search",
   "instance": "c_medium.in",
   "score": 1426,
-  "time_seconds": 0.4397,
+  "time_seconds": 1.3451,
   "iterations": 4001,
   "params": {
     "max_iterations": 4000,
     "tabu_tenure": 20,
     "neighbours_per_step": 10,
-    "seed": 42
+    "seed": 1
   },
   "history": [
     1426,
