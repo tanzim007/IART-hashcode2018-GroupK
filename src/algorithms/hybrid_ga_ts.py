@@ -159,15 +159,24 @@ def hybrid_ga_ts(
             child = _crossover(p1, p2, instance)
             child_score = score_solution(instance, child)
 
-            # 2. Local Exploitation: Tabu Search as smart mutation
-            child, _ = _local_tabu_search(
-                instance,
-                child,
-                child_score,
-                iterations=ts_iterations,
-                tabu_tenure=ts_tenure,
-                neighbours_per_step=ts_neighbors
-            )
+            if random.random() < 0.20:
+                child, child_score = _local_tabu_search(
+                    instance,
+                    child,
+                    child_score,
+                    iterations=ts_iterations,
+                    tabu_tenure=ts_tenure,
+                    neighbours_per_step=ts_neighbors
+                )
+            # # 2. Local Exploitation: Tabu Search as smart mutation
+            # child, _ = _local_tabu_search(
+            #     instance,
+            #     child,
+            #     child_score,
+            #     iterations=ts_iterations,
+            #     tabu_tenure=ts_tenure,
+            #     neighbours_per_step=ts_neighbors
+            # )
 
             new_population.append(child)
 

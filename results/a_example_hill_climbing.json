@@ -2,7 +2,7 @@
   "algorithm": "hill_climbing",
   "instance": "a_example.in",
   "score": 10,
-  "time_seconds": 0.0569,
+  "time_seconds": 0.0516,
   "iterations": 901,
   "params": {
     "max_iterations": 2000,

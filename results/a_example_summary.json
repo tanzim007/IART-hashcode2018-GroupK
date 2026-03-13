@@ -1,22 +1,22 @@
 {
   "hill_climbing": {
     "score": 10,
-    "time": 0.0569
+    "time": 0.0516
   },
   "simulated_annealing": {
     "score": 10,
-    "time": 0.0136
+    "time": 0.0131
   },
   "tabu_search": {
     "score": 10,
-    "time": 0.3304
+    "time": 0.3288
   },
   "genetic_algorithm": {
     "score": 10,
-    "time": 0.0499
+    "time": 0.0507
   },
   "hybrid_ga_ts": {
     "score": 10,
-    "time": 0.232
+    "time": 0.0504
   }
 }

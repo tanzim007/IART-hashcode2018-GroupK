@@ -2,7 +2,7 @@
   "algorithm": "tabu_search",
   "instance": "b_small.in",
   "score": 137,
-  "time_seconds": 0.6441,
+  "time_seconds": 0.6511,
   "iterations": 4001,
   "params": {
     "max_iterations": 4000,

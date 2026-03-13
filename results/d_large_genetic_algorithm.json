@@ -2,7 +2,7 @@
   "algorithm": "genetic_algorithm",
   "instance": "d_large.in",
   "score": 15167,
-  "time_seconds": 1.6685,
+  "time_seconds": 1.6082,
   "iterations": 201,
   "params": {
     "population_size": 20,
